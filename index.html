@@ -4,28 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>PORTOFOLIO</title>
 </head>
 <body>
     <h1>Hallo Everyone!</h1>
-    <div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/x5LlJJVrj6BxFQkkJo/video" width="480"></iframe></div>
+    <div class="gmb"> 
+        <img class="profil" src="Profil.jpeg" alt="">
+    </div>
     <p>Perkenalkan nama saya <b>Aulia Putri Sayidina</b>, Lahir di <u>Bekasi, 4 Maret 2004</u>. <br>Saya Mahasiswa Program Studi Teknik Informatika di <i>Institut Teknologi Sumatera</i></p>
+    
     <h2>Pendidikan:</h2>
-    <ul>
+    <ul class="pendidikan">
         <li>SMK Negeri 1 Bekasi</li>
         <li>SMP Negeri 4 Bekasi</li>
         <li>SDN Jakasampurna 3</li>
     </ul>
 
     <h2>Pengalaman:</h2>
-    <ol>
-        <li>Staff Kordinator Lapangan</li>
-        <li>Staff Kordinator Daplok Mentor</li>
-    </ol>
+    <div class="laman">
+        <table border="1"> 
+            <tr>
+                <td>Staff Kordinator Lapangan</td>
+            </tr>
+            <tr>
+                <td>Staff Kordinatoor Daplok Mentor</td>
+            </tr>
+        </table> 
+    </div>
 
     <h2>Kontak</h2>
-    <ul>
-        <li><img width="20px" src="instagram.jpeg" alt="ig icon"><a href="https://instagram.com/aulsydn_">@aulsydn_/<a></li>
-    </ul>
+    <div class="Sosmed">
+        <div>
+            <a href="https://www.instagram.com/aulsydn_/">
+                <img class="ins" width="20px" src="instagram.jpeg" alt="ig icon">
+                Instagram
+            </a>
+        </div>
+        <div>
+            <a href="https://wa.me/+6282182778579">
+                <img class="ins" width="20px" src="data:image/jpeg;base64,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" alt="ig icon">
+                WhatsApp
+            </a>
+        </div>
+    </div>
+    
 </body>
 </html>

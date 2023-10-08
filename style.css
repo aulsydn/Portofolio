@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: #125D7Aff;
+}
+.gmb{
+    display: flex;
+    justify-content: center;
+}
+img.profil{
+    width: 50%;
+}
+
+p {
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #125D7Aff;
+}
+ul.pendidikan {
+    outline: auto;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+img.ins:hover {
+    scale: 150%;
+}
+
+.Sosmed  {
+    display: flex;
+    justify-content: center;
+}
+.laman {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
